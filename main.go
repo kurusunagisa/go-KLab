@@ -1,12 +1,13 @@
 package main
 
 import (
-	"go-KLab/db"
-	"go-KLab/handler"
 	"log"
 	"net/http"
 	"os"
 	"time"
+
+	"github.com/kurusunagisa/go-KLab/db"
+	"github.com/kurusunagusa/go-KLab/handler"
 )
 
 func main() {

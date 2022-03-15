@@ -4,6 +4,8 @@ import (
 	"encoding/json"
 	"log"
 	"net/http"
+
+	_ "github.com/kurusunagisa/go-KLab/model"
 )
 
 func MainHandler(w http.ResponseWriter, r *http.Request) {
